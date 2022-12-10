@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+.container{
+    max-width: 80%;
+    /*background-color: #F0DDD7;*/
+    padding: 34px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: black;
+    /*margin-top: 5%;*/
+    /*font-size: 180%;*/
+    padding: 4px 0px;
+}
+/*.container p{*/
+/*    text-align: center;*/
+/*    color: black;*/
+/*    font-size: 85%;*/
+/*}*/
+
+input, textarea{
+    
+    border: 2px solid black;
+    border-radius: 21px;
+    outline: none;
+    width: 120%;
+    margin: 5px 0px;
+    padding: 7px;
+    font-size: 16px;
+}
+#quantity,#desc{
+    /*border: 2px solid black;*/
+    /*border-radius: 40px;*/
+    /*outline: none;*/
+    width: 120%;
+    margin: 5px 0px;
+    padding: 11px;
+    font-size: 16px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.btn{
+    color: white;
+    background: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+    width:35%;
+}
+.farmer9{
+    width: 100%;
+    position: absolute;
+
+    z-index: -1;
+}
+.submitMsg{
+    /*color: red;*/
+     color: green; 
+    font-size: 22px
+}
